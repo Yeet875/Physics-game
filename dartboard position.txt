@@ -1,0 +1,13 @@
+old dartboard position
+
+x = 900;
+y = 100; 
+r = 25;
+width = 50;
+
+old horizPlatform = new Ground(900,130,140,10);
+
+x = 900;
+y = 130; dartboard.y + (dartboard.width/2) - (horizPlatform.height/2)
+width = 150;
+height = 10;
